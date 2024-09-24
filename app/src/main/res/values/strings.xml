@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">portfolio</string>
+    <string name="your_bio">I am a highly motivated and talented individual with a strong background in B.Tech Computer Science and Engineering. With a strong interest in Artificial Intelligence, Machine Learning, Android Development using Kotlin, and Flutter (Dart), I am eager to apply my skills in innovative and challenging projects</string>
+    <string name="stream">B.Tech Computer Science and Engineering(AIML)</string>
+    <string name="stream1">Android Development With Kotlin and java</string>
+    <string name="bio_about">Tech enthusiast passionate about crafting innovative Android applications.Leveraging AIML to build intelligent solutions. Committed to delivering exceptional user experiences.Let\'s create something extraordinary together</string>
+
+    <string name="address_pf">
+    Locality: Chakdulat\n
+    Post Office: Akhavishanpur\n
+    Police Station: Ujiarpur\n
+    District: Samastipur\n
+    State: Bihar\n
+    Pin Code: 848132\n
+    Country: India
+</string>
+    <string name="intrest_content">
+    • Artificial Intelligence (AIML)\n
+    • Android Development\n
+    • Cricket
+</string>
+    <string name="email">Email: madhavkumar332003@gmail.com</string>
+    <string name="btech">Computer Science and Engineering (AIML Stream)\nKalasalingam Academy of Research and Education\n2021 – 2025</string>
+    <string name="telegram">Telegram: http://t.me/madhavchoudhary33</string>
+    <string name="discord">Discord: https://discord.com/channels/1036347414916907038/1036347414916907040</string>
+    <string name="twiter">Twitter: https://x.com/MadhavKumar5863</string>
+    <string name="instagram">Instagram: https://www.instagram.com/madhavkumar2003/</string>
+    <string name="facebook">Facebook: https://www.facebook.com/madhavkumar3320/</string>
+    <string name="github">GitHub: https://github.com/2003MADHAV</string>
+    <string name="linkedin">LinkedIn: https://www.linkedin.com/in/madhav-kumar-90baa2238/</string>
+    <string name="Adress">Address: Chakdaulat, Samastipur, 848132, Bihar</string>
+    <string name="madhav_kumar">MADHAV KUMAR</string>
+    <string name="portflioweb_link">PortflioWeb:https://madhavkumar.easerent.in/</string>
+
+</resources>

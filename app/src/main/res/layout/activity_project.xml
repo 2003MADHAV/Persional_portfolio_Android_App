@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Project">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/projectTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROJECTS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ScrollView to allow scrolling through projects -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/projectTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Project: Plant Species Identification -->
+            <TextView
+                android:id="@+id/plantSpeciesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Plant Species Identification From Leaf Images"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/plantSpeciesDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applied Deep Learning, focusing on Convolutional Neural Networks, for precise plant species identification from leaf images. Emphasized data quality, preprocessing, and model selection. Achieved transformative impact for agriculture, ecology, and conservation efforts."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Project: Emotion Recognition and Expression in Text -->
+            <TextView
+                android:id="@+id/emotionRecognitionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Emotion Recognition and Expression in Text"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/emotionRecognitionDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A multilingual emotion system revolutionizes cross-cultural communication by accurately detecting and expressing emotions in text, fostering stronger connections using NLP Tools."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Project: Traffic Signs Recognition -->
+            <TextView
+                android:id="@+id/trafficSignsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Traffic Signs Recognition using CNN and Keras"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/trafficSignsDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achieved 98% accuracy in Traffic Sign Recognition (TSR) using CNN and Keras. The system enhances road safety by accurately classifying signs and offering real-time traffic information, showcasing the practical impact of machine learning and computer vision."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Project: Android Apps -->
+            <TextView
+                android:id="@+id/androidAppsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Android Apps Using Kotlin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/androidAppsDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed various Android apps including Age Calculator, Weather App, Dice Roller, and a simple login page."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Project: Advanced ATM Loan System -->
+            <TextView
+                android:id="@+id/atmLoanTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Advanced ATM Loan System"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/atmLoanDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed an Advanced ATM Loan System using Java programming, streamlining loan processes for enhanced efficiency and user experience."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Project: Face Emotion Recognition -->
+            <TextView
+                android:id="@+id/faceEmotionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Face Emotion Recognition"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/faceEmotionDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed a real-time Face Emotion Recognition system using a .h5 model for swift and precise emotion detection."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/signature"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:text="© 2024 Madhav Kumar. All rights reserved."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/certificateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFESSIONAL CERTIFICATES"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Certificate List -->
+    <LinearLayout
+        android:id="@+id/certificateList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/certificateTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Oracle Cloud Infrastructure 2023 Data Science -->
+        <TextView
+            android:id="@+id/oracleCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Oracle Cloud Infrastructure 2023 Data Science"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- CodeChef Week Contest Completion Certificate -->
+        <TextView
+            android:id="@+id/codechefCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• CodeChef Week Contest Completion Certificate"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- MathWorks Virtual Internship -->
+        <TextView
+            android:id="@+id/mathworksCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• MathWorks Virtual Internship"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Online Course Certificate Heading -->
+    <TextView
+        android:id="@+id/onlineCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ONLINE COURSE CERTIFICATES"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@id/certificateList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Online Course List -->
+    <LinearLayout
+        android:id="@+id/onlineCourseList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/onlineCourseTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Computer Vision in Microsoft Azure -->
+        <TextView
+            android:id="@+id/computerVisionCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Computer Vision in Microsoft Azure"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- Developing AI Applications with Python and Flask -->
+        <TextView
+            android:id="@+id/aiApplicationsCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Developing AI Applications with Python and Flask"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- Programming Fundamentals in Kotlin -->
+        <TextView
+            android:id="@+id/programmingKotlinCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Programming Fundamentals in Kotlin"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- Python for Data Science, AI & Development -->
+        <TextView
+            android:id="@+id/pythonDataScienceCertificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Python for Data Science, AI and Development"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:text="© 2024 Madhav Kumar. All rights reserved."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="Theme.PortflioApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your main theme here -->
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item> <!-- Fullscreen mode -->
+        <item name="android:statusBarColor">@android:color/transparent</item> <!-- Transparent status bar -->
+        <item name="android:windowBackground">@drawable/splash_background</item> <!-- Background drawable for splash screen -->
+        <!-- Optional: Add text appearance if needed -->
+        <!-- <item name="android:textAppearance">@style/SplashTextAppearance</item> -->
+    </style>
+
+    <!-- Optional: Define a text appearance style for splash screen text -->
+    <!-- <style name="SplashTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/your_custom_font</item>
+    </style> -->
+
+</resources>

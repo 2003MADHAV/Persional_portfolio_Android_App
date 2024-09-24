@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Hard_Skill">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/hardSkillTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOFT SKILLS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/hardskillList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/hardSkillTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:id="@+id/pythonSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Team Work"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/cSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Time Management "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/rSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Communication"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/softdev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• SoftSkill Development"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/softskill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Soft Skill"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#B5CBCE"
+            android:padding="16dp">
+
+            <!-- Heading TextView -->
+            <TextView
+                android:id="@+id/project_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCAFC8"
+                android:paddingBottom="8dp"
+                android:textAlignment="center"
+                android:text="Currently Working Project"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Description TextView -->
+            <TextView
+                android:id="@+id/project_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EaseRent: Integrated Admin Web Portal and Mobile Solutions for Rental Property Management\n\nEaseRent is a unified platform for rental property management, integrating web and mobile solutions. With a user-friendly design, it supports renters, owners, and agents, offering 360° views, virtual tours, and location-based listings. The scalable system manages growth, providing efficient tools for property management and a robust admin panel for users, properties, and settings. Prioritizing security and compliance, EaseRent also supports multiple languages, including RTL, to serve a diverse audience."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:text="© 2024 Madhav Kumar. All rights reserved."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Hard_Skill">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/hardSkillTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HARD SKILLS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Skill List -->
+    <LinearLayout
+        android:id="@+id/skillList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/hardSkillTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Python -->
+        <TextView
+            android:id="@+id/pythonSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Python"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- C -->
+        <TextView
+            android:id="@+id/cSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• C"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- R (Basic) -->
+        <TextView
+            android:id="@+id/rSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• R (Basic)"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- Java -->
+        <TextView
+            android:id="@+id/javaSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Java"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- SQL -->
+        <TextView
+            android:id="@+id/sqlSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• SQL"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <!-- Kotlin -->
+        <TextView
+            android:id="@+id/kotlinSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Kotlin"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+        <TextView
+            android:id="@+id/HTML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• HTML"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+        <TextView
+            android:id="@+id/CSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• CSS"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/matlab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Matlab Programing"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/microsoft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Microsoft Tools"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/msazure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Microsoft Azure "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/andr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Android Dvelopment  "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/msword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Microsoft Word "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/dart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Flutter With Dart "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:text="© 2024 Madhav Kumar. All rights reserved."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
